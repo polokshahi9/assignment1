@@ -179,7 +179,9 @@ padding: 12px 20px 12px 20px;
     
     
 }
-
+.main3_title{
+    color: beige;
+}
 
 .main3_section_text{
     display: flex;justify-content: center;
@@ -189,9 +191,7 @@ padding: 12px 20px 12px 20px;
 
     
 }
-.main3_title{
-    color: black;
-}
+
 .text_content{
     margin-bottom: 30px;
 }
