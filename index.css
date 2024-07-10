@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/* banner container */
 .banner_container{
     height: 652px;
     width: 1300px;
@@ -10,25 +11,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 44px;
     
 }
 .img{
    display: flex;
    justify-content: center;
    align-items: center;
-   /* flex-direction: column; */
+   flex-direction: column;
 
 }
 .banner_title{
     font-size: 48px;
     text-align: center;
 }
-.banner_describtion{
+.banner_describtion{ 
     font-size: 16px;
     text-align: center;
 }
 
-
+/* button section css */
 .btn{
     background: rgb(13, 19, 33);
     color: white;
@@ -36,13 +38,55 @@
     width: 180px;
     border: 0;
     border-radius: 8px;
+    margin-top: 25px;
   
 
 }
 .btn_position{
-    margin-top: 10px;
+  
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+.main_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_section{
+    text-align: center;
+    
+}
+.text_title{
+    margin-bottom: 20px;
+}
+.main{
+padding: 50px 95px 85px 95px; 
+
+
+
+}
+.main1_parent{
+   margin: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+   
+}
+.main1_section{
+    justify-content: center;
+    
+}
+.img_div{
+    display: flex;
+    
+}
+.btn1{
+
+width: 150px;
+height: 48px;
+margin-top: 5%;
+padding: 12px 20px 12px 20px;
 }
