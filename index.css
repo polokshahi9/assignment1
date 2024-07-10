@@ -163,7 +163,7 @@ padding: 12px 20px 12px 20px;
 }
 .main3_section{
     
-    background: url('./assets/handshake.jpg');
+    background: url('./assets/hand_shack.png');
     margin-top: 49px;
     border-radius: 10px;
     height: 600px;
@@ -178,9 +178,6 @@ padding: 12px 20px 12px 20px;
     
     
     
-}
-.main3_title{
-    color: beige;
 }
 
 .main3_section_text{
