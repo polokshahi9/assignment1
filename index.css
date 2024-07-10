@@ -30,7 +30,7 @@
     text-align: center;
 }
 
-/* button section css */
+/* baneer button section css */
 .btn{
     background: rgb(13, 19, 33);
     color: white;
@@ -89,4 +89,49 @@ width: 150px;
 height: 48px;
 margin-top: 5%;
 padding: 12px 20px 12px 20px;
+}
+
+.text_section{
+    margin-bottom: 80px;
+}
+.video_section{
+    margin: 0 auto;
+    text-align: center;
+}
+.video_fream{
+    width: 1076px;
+    height: 550px;
+    margin-bottom: 180px;
+}
+.content_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cards_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card1, .card2, .card3{
+    margin: 30px 5px;
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+    border-radius: 5px;
+   
+    
+}
+.card1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.card2{
+ background-color: rgba(0, 76, 232, 0.05);
+}
+.card3{
+ background-color: rgba(255, 223, 0, 0.05);
 }
